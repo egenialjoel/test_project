@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :forums
+
   map.resources :videos
 
   map.resources :users
